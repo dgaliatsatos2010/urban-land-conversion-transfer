@@ -29,8 +29,7 @@ jobs:
       - name: Recompute all 360 held-out permutations
         run: python Reviewer2_Analyses/reproduce_permutation_30.py
       - name: Compare generated permutation CSVs with published results
-        run: |
-          git diff --exit-code -- Reviewer2_Results/xgboost_permutation_30_full.csv Reviewer2_Results/xgboost_permutation_30_summary.csv Reviewer2_Results/xgboost_permutation_model_replay_checks.csv
+        run: python Reviewer2_Analyses/check_permutation_outputs.py
       - name: Archive audit results
         if: always()
         uses: actions/upload-artifact@v4
