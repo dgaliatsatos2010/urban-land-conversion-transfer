@@ -1,0 +1,4 @@
+city,eligible,change,intersections_total,intersections_matched,matched_over1,matched_between1_100,labels_1m2,labels_100m2,different_1pct,labels_5pct_1m2,labels_5pct_100m2,different_5pct
+Kavala,645,11,11,11,11,0,6,6,0,2,2,0
+Graz,11412,375,417,375,375,0,280,280,0,183,183,0
+Tirana,6309,184,207,184,184,0,97,97,0,60,60,0
