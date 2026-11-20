@@ -45,7 +45,7 @@ For the original source-mask and label-filter checks, the same environment varia
 3. All model comparisons are within a three-city retrospective study, with only six primary positives in Kavala.
 4. 5/10/20-km bootstraps are conditional within FUA, not confidence intervals over new cities.
 5. Deterministic top-5% TAN tie resolution changes chart values relative to implicit ordering; the original Table 4 Logistic Regression is unaffected.
-6. This package is a *local reproducibility bundle*, not yet a published repository, permanent DOI, or evidence of complete external independent re-execution. A real reviewer-accessible link is required before manuscript resubmission.
+6. This repository is now publicly hosted on GitHub. Publication of source and derived materials does not by itself establish independent third-party reproduction. No permanent DOI has yet been assigned.
 
 ## Public release verification
-This archive is the full reproducibility bundle. After publishing, verify the public commit, file list and checksums before citing a release. Original CLMS raw archives are not included.
+The complete reviewer analysis bundle was pushed on 20 November 2026 at commit `aa94dee4514abaf3370cd5328a54a669ce03ae75`. GitHub confirms 74 files changed in that commit, and the published `SHA256SUMS.csv` is available. Original CLMS raw archives are not included. This commit is not a versioned GitHub release or an independently rerun verification; check the pinned commit for an immutable reference.
