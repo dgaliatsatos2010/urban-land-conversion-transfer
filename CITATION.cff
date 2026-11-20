@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the repository release once issued."
+title: "Cross-city transfer of urban land-use conversion rankings: reproducibility materials"
+authors:
+  - family-names: Galiatsatos
+    given-names: Dimitrios
+repository-code: https://github.com/dgaliatsatos2010/urban-land-conversion-transfer
