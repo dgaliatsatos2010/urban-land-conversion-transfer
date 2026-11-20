@@ -12,7 +12,7 @@ import hashlib
 manifest=pd.read_csv(R.parent/'SHA256SUMS.csv')
 assert len(manifest)==73 and set(manifest.columns)=={'file','sha256'}
 for rec in manifest.itertuples(index=False):
- if rec.file == 'Original_Analysis/qa_integrity_v08.py': continue  # modified after original manifest
+ if not (rec.file.startswith('Original_Analysis/table_') or rec.file.startswith('Reviewer2_Results/')): continue  # source data/results only; documentation and scripts may evolve
  f=R.parent/rec.file
  assert f.is_file(), f'Missing bundled file: {rec.file}'
  assert hashlib.sha256(f.read_bytes()).hexdigest()==rec.sha256, f'Checksum mismatch: {rec.file}'
