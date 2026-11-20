@@ -1,0 +1,6 @@
+1. Extract this ZIP into a folder.
+2. Install Git for Windows and GitHub CLI if not installed.
+3. Double-click PUBLISH_TO_GITHUB.bat. Sign in when prompted.
+4. The script clones the existing repository, uploads the 74 research files, and prints the commit SHA.
+5. Confirm the full repository content and share the commit SHA in ChatGPT to finalize the manuscript.
+Do not upload original CLMS raw ZIPs or add a release before verification.

@@ -1,0 +1,4 @@
+city,eligible,noncovered_by2021,outside_eligible_area_ha,outside_gt1sqm,outside_1pct,only_2018_area_km2,only_2021_area_km2,first_union_valid,second_union_valid,time_seconds
+Kavala,645,0,0.0,0,0,0.0,73.77098115526316,True,True,0
+Graz,11412,464,7.522711624493951e-06,0,0,1.5754079879865885e-08,255.96672691279255,True,True,8
+Tirana,6309,0,0.0,0,0,0.0,0.0,True,True,3

@@ -1,0 +1,16 @@
+city,model,top5_n,cutoff_score,tied_at_cutoff,strictly_above_cutoff,boundary_tie_crossing,number_unique_score
+Graz,LogisticRegression,571,0.0684189840244923,1,570,False,11412
+Graz,RandomForest,571,0.1021225463651536,2,569,False,9771
+Graz,TAN_BN,571,0.1394951187611794,875,2,True,64
+Graz,TrainingPrevalence,571,0.0148116192119643,11412,0,True,1
+Graz,XGBoost,571,0.09711354970932,2,569,False,6207
+Kavala,LogisticRegression,33,0.1308173320007012,1,32,False,645
+Kavala,RandomForest,33,0.1098515580259808,1,32,False,423
+Kavala,TAN_BN,33,0.0866580172493089,39,24,True,95
+Kavala,TrainingPrevalence,33,0.021274194458552,645,0,True,1
+Kavala,XGBoost,33,0.1002892553806305,1,32,False,413
+Tirana,LogisticRegression,316,0.0559898238038483,1,315,False,6309
+Tirana,RandomForest,316,0.0512200524236657,1,315,False,3137
+Tirana,TAN_BN,316,0.0799936867782075,174,159,True,234
+Tirana,TrainingPrevalence,316,0.0237206601973957,6309,0,True,1
+Tirana,XGBoost,316,0.053458534181118,2,314,False,2788

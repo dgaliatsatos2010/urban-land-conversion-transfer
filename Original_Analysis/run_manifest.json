@@ -1,0 +1,43 @@
+{
+  "data": "Real Copernicus UA 2018 revised and official change 2018-2021",
+  "design": "retrospective, polygon-level, held-out FUA",
+  "positive_label": "2018 eligible parcel intersects strict built conversion at >=100m\u00b2 and >=1% of parcel area",
+  "2018_source_prefixes": [
+    "21",
+    "22",
+    "31",
+    "32",
+    "33"
+  ],
+  "2021_built_destination_codes": [
+    "11100",
+    "11210",
+    "11220",
+    "11230",
+    "11240",
+    "11300",
+    "12100",
+    "12210",
+    "12220",
+    "12230",
+    "12300",
+    "12400"
+  ],
+  "features": [
+    "built_fraction_250m",
+    "built_fraction_1000m",
+    "distance_to_built_m",
+    "code_2018"
+  ],
+  "neighbor_features": "fraction of 2018 developed-category polygon representative points within a fixed radius divided by count of all 2018 polygon representative points within radius; unweighted by polygon area",
+  "selection": "fixed parameter models; no tuning on test",
+  "cautions": [
+    "2018 revised retrospectively",
+    "polygon-level not area-level prevalence",
+    "labels may capture partial conversion",
+    "three geographic clusters only",
+    "BN associations do not imply causation",
+    "FUA mapping boundary differences",
+    "class imbalance"
+  ]
+}

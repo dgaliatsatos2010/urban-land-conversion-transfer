@@ -1,0 +1,10 @@
+city,block_km,total_blocks,positive_blocks,min_positives_per_positive_block,max_positives_per_positive_block
+Graz,5,152,81,1,16
+Graz,10,47,34,1,41
+Graz,20,17,11,2,87
+Kavala,5,21,3,1,3
+Kavala,10,8,2,1,5
+Kavala,20,4,2,1,5
+Tirana,5,94,27,1,14
+Tirana,10,33,12,1,29
+Tirana,20,13,6,1,40

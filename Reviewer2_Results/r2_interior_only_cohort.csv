@@ -1,0 +1,4 @@
+city,n_total,positives_total,n_interior,positives_interior,n_excluded_boundary,positives_excluded_boundary,interior_area_ha
+Graz,11412,280,9884,259,1528,21,173081.37056056713
+Kavala,645,6,497,5,148,1,16706.428747613107
+Tirana,6309,97,5554,91,755,6,108287.180685924
