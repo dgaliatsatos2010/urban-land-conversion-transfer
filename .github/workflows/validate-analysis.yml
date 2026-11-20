@@ -5,6 +5,7 @@ on:
     paths:
       - 'Original_Analysis/qa_integrity_v08.py'
       - 'Reviewer2_Analyses/reproduce_permutation_30.py'
+      - 'Reviewer2_Analyses/check_permutation_outputs.py'
       - '.github/workflows/validate-analysis.yml'
 permissions:
   contents: read
